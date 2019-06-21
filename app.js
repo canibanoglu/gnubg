@@ -1,7 +1,7 @@
 const express = require('express');
 const childProcess = require('child_process');
 const app = express();
-const port = 8888;
+const port = 80;
 
 app.get('/', (req, res) => {
   childProcess.exec('gnubg -h', (err, stdout, stderr) => {
