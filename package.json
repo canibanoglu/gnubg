@@ -4,7 +4,9 @@
   "description": "REST interface for gnubg",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "NODE_ENV=production node app.js",
+    "dev": "node app.js"
   },
   "author": "Can Ibanoglu",
   "license": "ISC",
